@@ -1,0 +1,66 @@
+:root{
+    --darkGreen: #096B4A;
+    --lightGreen: #09CF6C;
+    --orange: #F78808;
+
+}
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.text-green {
+    color: var(--darkGreen);
+}
+
+.img-background{
+    height: 50vh;
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(./media/rice-1514141_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.paragraf2{
+    background-color: var(--orange);
+    border-radius: 0px 8px 8px 0px;
+}
+
+.paragraf1{
+    background-color: white;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.proviamo{
+    margin-top: -20px;
+    
+}
+
+.margin-bg {
+    background-color: var(--darkGreen);
+    height: 500px;
+}
+
+.btn-orange {
+    background-color: var(--orange) !important;
+}
+
+.icons {
+    color: gold;
+    
+}
+
+.incons-2 {
+    color: red;
+}
+
+.icons-3 {
+    color: rgb(67, 89, 35);
+}
+
+.icons-4 {
+    color: darkorange;
+}

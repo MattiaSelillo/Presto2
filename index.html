@@ -1,0 +1,154 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- fontoso -->
+
+    <script src="https://kit.fontawesome.com/d5bfb8bcdc.js" crossorigin="anonymous"></script>
+
+    <!-- css -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- css bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- inizio navbar -->
+
+    <nav class="navbar navbar-expand-lg sticky-top text-green">
+        <div class="container">
+            <a class="navbar-brand " href="#">Presto</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item text-green">
+                        <a class="nav-link active " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Shop</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+
+                </form>
+                <i class="fa-solid fa-cart-shopping me-3 text-green"></i>
+                <i class="fa-regular fa-user me-3 text-green"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- fine navbar -->
+
+    <!-- sezione principale -->
+    <header class="container img-background">
+
+        <!-- inizio immagine principale -->
+
+        <div class="row h-100 justify-content-center align-items-center">
+            <div class="col-12 col-md-8 text-center">
+                <h1>Presto Project Hackademy 2023</h1>
+                <!-- HTML !-->
+                <button type="button" class="btn btn-light">Shop now</button>
+            </div>
+        </div>
+
+        <!-- fine immagine principale -->
+
+    </header>
+
+    <!-- Sezione contatti -->
+
+    <div class="container proviamo">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 text-start bg-white paragraf1">
+                <p class="d-flex justify-content-center text-center">Contattaci al numero della nostra sede:</p>
+
+            </div>
+            <div class="col-12 col-md-2 text-end paragraf2 ">
+
+                <p class="d-flex justify-content-center text-center">333333333</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Section Cards-->
+    <section class="container margin-bg">
+        <div class="row justify-content-around px-5 py-5">
+            <!--Card one-->
+            <div class="card col-12 col-md-3 mt-5 " style="width: 18rem;">
+                <div class="card-body">
+                    <h4 class="card-title d-flex justify-content-center"><i class="fa-solid fa-lemon icons fa-4x"></i>
+                    </h4>
+                    <h5 class="d-flex justify-content-center text-center display-5">+50%</h5>
+                    <a href="#" class="btn btn-orange d-flex justify-content-center">Shop</a>
+                </div>
+            </div>
+
+            <!--Card two-->
+
+            <div class="card col-12 col-md-3 mt-5" style="width: 18rem;">
+                <div class="card-body">
+                    <h4 class="card-title d-flex justify-content-center"><i
+                            class="fa-solid fa-apple-whole incons-2 fa-4x"></i></h4>
+                    <h5 class="d-flex justify-content-center text-center display-5">+50%</h5>
+                    <a href="#" class="btn btn-orange d-flex justify-content-center">Shop</a>
+                </div>
+            </div>
+
+            <!--Card three-->
+
+            <div class="card col-12 col-md-3 mt-5" style="width: 18rem;">
+                <div class="card-body">
+                    <h4 class="card-title d-flex justify-content-center"><i
+                            class="fa-solid fa-pepper-hot icons-3 fa-4x"></i></h4>
+                    <h5 class="d-flex justify-content-center text-center display-5">+50%</h5>
+                    <a href="#" class="btn btn-orange d-flex justify-content-center">Shop</a>
+                </div>
+            </div>
+
+            <!--Card four-->
+
+            <div class="card col-12 col-md-3 mt-5" style="width: 18rem;">
+                <div class="card-body">
+                    <h4 class="card-title d-flex justify-content-center"><i
+                            class="fa-solid fa-carrot icons-4 fa-4x"></i></h4>
+                    <h5 class="d-flex justify-content-center text-center display-5">+50%</h5>
+                    <a href="#" class="btn btn-orange d-flex justify-content-center">Shop</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- js bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <!-- javascript -->
+    <script src="./main.js"></script>
+</body>
+
+</html>
